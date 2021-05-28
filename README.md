@@ -33,7 +33,7 @@ Utilize GPUs to accelerate training if available
 ```python
 export CUDA_VISIBLE_DEVICES=1
 ```
-Run the following commands to replicate results in the submission
+Run the following commands to reproduce results in the submission
 ### Reproduce results in the submission
 ```python
 ./run.sh

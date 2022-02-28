@@ -7,6 +7,9 @@ This repo contains our work in AAAI 2022, Efficient Continuous Control with Doub
 
 We use `main.py` to run results where `DDPG.py` along with `TD3.py` are served as baselines and `DARC.py` is the core file for our work. We use seeds 1-5 for all algorithms during training and different seeds (the current seed + 100) during evaluation (see run.sh for more details).
 
+## Evaluate True Value
+One need to set the sampled state as the initial state in MuJoCo to evaluate the true value. Please refer to [https://github.com/openai/gym/issues/1617](https://github.com/openai/gym/issues/1617) for details.
+
 ## Requirements
 - python: 3.7.9
 - mujoco_py: 2.0.2.13

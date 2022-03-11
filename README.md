@@ -28,7 +28,7 @@ Before installing pybullet, make sure that you have gym installed. Then run the 
   pip install -e .
 ```
 
-### Use PubulletGym
+### Use PybulletGym
 ```python
 import pybulletgym
 ```
